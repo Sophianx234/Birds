@@ -1,4 +1,6 @@
 # Bird Info App
+<img src="https://i.ibb.co/wsGKVkg/inter-1.png" alt="Bird Info App" style="width: 100%; max-width: 600px; display: block; margin: 0 auto;">
+
 
 ## Description
 Bird Info App is a simple web application that displays a list of birds with their scientific and common names. Users can interact with the app to view, add, and manage bird information. The app is designed to provide an intuitive and user-friendly experience for bird enthusiasts and researchers.
