@@ -5,8 +5,29 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    fontFamily: {
+      sans: 'Rethink Sans, sans-serif',
+      },
+    extend: {
+      fontFamily: {
+        nato: 'Nato Sans',
+        rethink: 'Rethink Sans',
+        mulish: 'Mulish',
+        poppins: 'Poppins',
+        Montserrat: 'Montserrat',
+        lobster: 'Lobster',
+        chewy: 'Chewy',
+        inter: 'Inter',
+        quicksand: 'Quick-sand'
+      }
+    
+    },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ["light"], // Keep only the light theme or other themes you prefer
+  },
 }
 
